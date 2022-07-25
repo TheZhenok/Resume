@@ -1,0 +1,146 @@
+@media screen and (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+    .personal__info__block{
+        width: 40%;
+        overflow: visible;
+        padding-bottom: 10px;
+        padding-bottom: 30px;
+    }
+    .my__face {
+        margin-top: -60px;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+    }
+    .my__face::before{
+        content: "";
+        display: none;
+    }
+    .v__stack {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .information {
+        margin-top: -60px;
+        width: 70%;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    .name {
+        font-size: 1.7em;
+    }
+    .work {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    .contact__information {
+        margin-top: 20px;
+    }
+    .contact__information span{
+        font-size: 0.8em;
+    }
+    .card:nth-child(odd){
+        margin-left: 0px;
+    }
+    .card:nth-child(even){
+        margin-left: 0px;
+    }
+    .card:nth-child(odd) .title::before{
+        display: none;
+    }
+    .card{
+        padding-top: 6%;
+        padding-left: 5%;
+        color: var(--text-color);
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        box-shadow: 0 0 15px rgb(44, 45, 48);
+        color: #6f6e6e00;
+        width: 1px;
+    }
+    .card.active{
+        color: var(--text-color);
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    body, html{
+        overflow-x: hidden;
+    }
+    .personal__info__block{
+        width: 80%;
+        overflow: visible;
+        padding-bottom: 120px;
+    }
+    .name {
+        font-size: 1.5em;
+        width: auto;
+        font-weight: 500;
+    }
+    .work {
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    .contact__information span{
+        font-size: 0.7em;
+    }
+    span:nth-child(1) .contect__image {
+        display: none;
+    }
+    .contact__information span:nth-child(1){
+        font-size: 0.7em;
+        justify-content: center;
+        gap: 0;
+    }
+    .main__title{
+        color: white;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    .block{
+        margin-top: 180px;
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .java::after{
+        display: none;
+    }
+    .card:nth-child(odd){
+        margin-left: 0px;
+    }
+    .card:nth-child(even){
+        margin-left: 0px;
+    }
+    .java .card{
+        border-left: 6px solid var(--java-color);
+    }
+    .python .card{
+        border-left: 6px solid var(--python-color);
+    }
+    .golang .card{
+        border-left: 6px solid var(--golang-color);
+    }
+    .any .card{
+        border-left: 6px solid var(--any-color);
+    }
+    .card .title{
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .card .short__info{
+        color: va
+    }
+}
